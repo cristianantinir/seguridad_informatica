@@ -50,3 +50,10 @@
   margin-top: 10vh;
 }
 
+.botonesFin {
+  position: fixed;
+  bottom: 5rem;
+  right: 2rem;
+  display: flex;
+  gap: 1rem;
+}
