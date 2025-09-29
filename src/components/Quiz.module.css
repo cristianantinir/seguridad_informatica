@@ -112,3 +112,18 @@ input[type="radio"] {
   padding: 0 2rem;       
   gap:2rem;
 }
+
+.botonUno, .botonDos{
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.botonUno:hover{
+  background-color: rgba(82, 31, 136, 0.426);
+  color:white;
+}
+
+.botonDos:hover{
+  background-color: rgba(28, 243, 4, 0.651);
+  color:white;
+}
