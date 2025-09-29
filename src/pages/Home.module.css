@@ -112,5 +112,18 @@ h3 {
   margin-top: 5vh;
   margin-bottom: 5vh;
   font-family: 'Montserrat', sans-serif;
+}
 
+.caja{
+  margin-top: 15vh;
+}
+.pp{
+  background-color:  rgba(184, 184, 184, 0.145);
+  height: 15vh;
+  color:white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300; 
 }
