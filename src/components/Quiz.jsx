@@ -78,4 +78,35 @@ function Quiz(){
             </>
         );
     }
+
+    return (
+        <>
+        <div className={style.quizContainer}>
+            <h1 className={style.acheUno}>¿Realmente aprendí?</h1>
+            <div className={style.options}>
+                <h2 className={style.acheDos}>{questions[current].question}</h2>
+                {questions[current].options.map((option, index) => (
+                <label key={index} className={style.optionLabel}>
+                    <input 
+                        type='radio'
+                        name='answer'
+                        value={index}
+                        checked={selected === index}
+                        onChange={() => setSelected(index)}
+                    />
+                    {option}
+                </label>   
+                ))}
+            </div>
+            <div className={style.ambosBotones}>
+                <button className={style.botonUno} onClick={() => navigate('/')}>Inicio</button>
+                <button className={style.botonDos} onClick={handleNext}>
+                    {current === questions.length -1 ? 'Finalizar' : 'Siguiente'}
+                </button>
+            </div>
+        </div>
+    </>
+    );
 }
+
+export default Quiz;
