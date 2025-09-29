@@ -28,3 +28,12 @@
   margin-top: 3vh;
   margin-left: 1rem;
 }
+
+.contenedorFin {
+  background-color:#ebeff3; 
+  min-height: 86vh;
+  display: flex; 
+  justify-content: center; 
+  box-sizing: border-box;
+}
+
