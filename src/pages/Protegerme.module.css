@@ -17,3 +17,19 @@
   padding: 0 2rem; 
   margin-top: 3vh;
 }
+
+.Proteccion h1{
+  margin: 0;  
+  font-family:'Motserrat', sans-serif;  
+}
+.Proteccion button{
+  font-size: 3vh;
+  color: white;
+  margin: 0;
+  background: white;
+  color: black;
+  height: 6vh;
+  width: 14vh;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
