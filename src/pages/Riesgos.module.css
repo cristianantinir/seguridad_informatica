@@ -1,0 +1,11 @@
+.contenedorRiesgo {
+  background-image: url('../assets/seguridad-informatica-850x491.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;  
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
