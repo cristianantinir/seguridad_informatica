@@ -87,10 +87,17 @@
   color:red;
 }
 
-
 .optionLabel{
   margin-left: 1rem;
   font-size: 3vh;
   color:black;
   font-family: 'Open Sans', sans-serif;
+}
+
+input[type="radio"] {
+  width: 20px;
+  height: 20px;
+  accent-color: #5b2a9d;
+  cursor: pointer;
+  margin-right: 1rem;
 }
