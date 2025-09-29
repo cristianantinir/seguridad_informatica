@@ -101,3 +101,14 @@ input[type="radio"] {
   cursor: pointer;
   margin-right: 1rem;
 }
+
+.ambosBotones {
+  position: absolute;     
+  bottom: 2rem;           
+  left: 0;
+  right: 0;
+  display: flex;          
+  justify-content: right; 
+  padding: 0 2rem;       
+  gap:2rem;
+}
