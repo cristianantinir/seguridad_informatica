@@ -29,5 +29,20 @@ function Quiz(){
 
     const navigate = useNavigate();
 
-    
+    const handleNext = () => {
+        
+        if (selected === null)
+            return alert('seleccione una opción');
+
+        if (selected === questions[current].correct){
+            setScore(score + 1);
+        }
+
+        if (current + 1 < questions.length){
+            setCurrent(current + 1);
+            setSelected(null);
+        }else{
+            setFinished(true);
+        }
     };
+}
