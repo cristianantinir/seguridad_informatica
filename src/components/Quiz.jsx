@@ -20,3 +20,14 @@ const questions = [
         correct: 1,
     },
 ];
+
+function Quiz(){
+    const [current, setCurrent] = useState(0);
+    const [selected, setSelected] =useState(null);
+    const [score, setScore] = useState(0);
+    const [finished, setFinished] = useState(false);
+
+    const navigate = useNavigate();
+
+    
+    };
