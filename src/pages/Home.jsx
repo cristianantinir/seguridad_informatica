@@ -44,7 +44,9 @@ function Home() {
         <div className={style.caja}>
           <h2>Sobre mí</h2>
 
-          <p className={style.pp}>
+          <p className={style.pp
+            
+          }>
             Me gusta la programación. Disfruto mucho de crear cosas con código y resolver problemas. También me encanta aprender cada vez más; siempre estoy buscando algo nuevo que me ayude a mejorar.
             La tecnología en general me apasiona, especialmente todo lo relacionado con redes, ciberseguridad y seguridad informática. Son áreas que me interesan mucho y en las que quiero seguir creciendo.
             Actualmente estoy cursando 6to año en la EPET N°20, en Neuquén Capital, Argentina, y estoy por recibir el título de Técnico en Programación.
