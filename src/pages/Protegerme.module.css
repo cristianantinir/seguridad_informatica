@@ -1,0 +1,11 @@
+.contenedorProtegerme{
+  background-image: url('../assets/protegerme1.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
