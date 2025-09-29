@@ -33,3 +33,23 @@
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
   font-family: 'Open Sans', sans-serif;
 }
+
+.contenido {
+  flex: 1; 
+  display: flex;
+  align-items: center; 
+  justify-content: center;
+
+}
+
+.contenido p {
+  background-color: rgba(157, 155, 155, 0.26);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  padding: 2rem;
+  max-width: 100%;  
+  font-size: 3vh;       
+}
