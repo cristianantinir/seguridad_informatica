@@ -73,3 +73,24 @@
   box-shadow: 0 10px 10px rgba(54, 16, 129, 0.616);
   color:white;
 }
+
+.options{
+  background-color: rgba(82, 31, 136, 0.297);
+  height: 70vh;
+  width: 70vh;
+  margin-left: 8vh;
+  border-radius: 20px;
+  margin-top: 11vh;
+  flex-direction: column;
+  display: flex;
+  gap:3rem;
+  color:red;
+}
+
+
+.optionLabel{
+  margin-left: 1rem;
+  font-size: 3vh;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+}
