@@ -43,3 +43,7 @@ La web está diseñada para ayudar a usuarios de todos los niveles a comprender 
    npm start
  
    Abre tu navegador y visita http://localhost:3000
+
+
+   Prototipo:
+📄 [Ver prototipo (PDF)](./Prototipo/seguridad_informatica.pdf)
