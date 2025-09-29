@@ -53,10 +53,29 @@ function Quiz(){
     setFinished(false);
     };
 
-     const getFeedbackMessage = () => {
+    const getFeedbackMessage = () => {
     if (score === 3) return '¡Perfecto!😁';
     if (score === 2) return '¡Medio!😬';
     if (score === 1) return '¡La próxima!🫡';
     return '¡Ups!😮‍💨';
     };
+
+    if (finished){
+        return(
+            <>
+            <div className={style.contenedorFin}>
+                <div className={style.resultado}>
+                    <h3>Resultado</h3>
+                    <p>{score} / {questions.length} {getFeedbackMessage()}</p>
+                </div>  
+                
+                <div className={style.botonesFin}>
+                    <button className={style.finUno} onClick={() => navigate('/')}>Inicio</button>
+                    <button className={style.finDos} onClick={resetQuiz}>Otra vez</button>
+                </div>
+            </div>  
+            <Footer /> 
+            </>
+        );
+    }
 }
