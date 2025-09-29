@@ -45,4 +45,12 @@ function Quiz(){
             setFinished(true);
         }
     };
+
+    const resetQuiz = () => {
+    setCurrent(0);
+    setSelected(null);
+    setScore(0);
+    setFinished(false);
+    };
+
 }
