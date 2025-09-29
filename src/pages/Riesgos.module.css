@@ -9,3 +9,27 @@
   flex-direction: column;
   min-height: 100vh; 
 }
+.riesgos {
+  display: flex;
+  justify-content: space-between; 
+  height: 10vh;
+  padding: 0 2rem; 
+}
+.riesgos h1{
+  font-size: 5vh;
+  color: rgb(0, 0, 0);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.riesgos button{
+  font-size: 3vh;
+  color: white;
+  margin: 0;
+  background: white;
+  color: black;
+  height: 6vh;
+  width: 14vh;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  font-family: 'Open Sans', sans-serif;
+}
