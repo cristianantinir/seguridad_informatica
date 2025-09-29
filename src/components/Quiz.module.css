@@ -9,3 +9,22 @@
   flex-direction: column;
   min-height: 100vh; 
   }
+
+  .acheUno{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vh;
+  justify-content: left;
+  margin:0;
+  box-shadow: 0 10px 10px rgba(111, 111, 118, 0.573);
+  margin-top: 2vh;
+}
+.acheDos{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4vh;
+  display: flex;
+  justify-content: left;
+  margin-top: 3vh;
+  margin-left: 1rem;
+}
