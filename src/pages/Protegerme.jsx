@@ -8,7 +8,7 @@ function Protegerme (){
     return(
        <>
         <div className={style.contenedorProtegerme}>
-            <div className={style.conPro}>
+            <div className={style.Proteccion}>
                 <h1>¿Cómo Protegerme?✅</h1>
                 <button onClick={() => navigate('/')}>Volver</button>
             </div>
