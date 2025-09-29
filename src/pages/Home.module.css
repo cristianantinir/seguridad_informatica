@@ -1,0 +1,12 @@
+.homeContainer{
+ background-image: url('../assets/imgSegInfo.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+  display: block;
+  background-attachment: fixed;
+  margin: 0;
+  overflow-x: hidden;
+}
+
