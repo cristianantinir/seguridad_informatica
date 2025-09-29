@@ -8,7 +8,7 @@ function Riesgos() {
   return (
     <>
     <div className={style.contenedorRiesgo}>
-        <div className={style.cajon}>
+        <div className={style.riesgos}>
             <h1>Riesgos de malware⚠️</h1>
             <button onClick={() => navigate('/')}>Volver</button>  
         </div>
