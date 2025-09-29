@@ -9,3 +9,11 @@
   flex-direction: column;
   min-height: 100vh; 
 }
+
+.Proteccion {
+  display: flex;
+  justify-content: space-between; 
+  height: 10vh;
+  padding: 0 2rem; 
+  margin-top: 3vh;
+}
