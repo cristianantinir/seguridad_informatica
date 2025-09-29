@@ -37,3 +37,16 @@
   box-sizing: border-box;
 }
 
+.resultado h3{
+  color: black;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 5vh;
+}
+
+.resultado p{
+  font-size: 5vh;
+  color:black;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10vh;
+}
+
