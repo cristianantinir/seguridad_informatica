@@ -53,4 +53,10 @@ function Quiz(){
     setFinished(false);
     };
 
+     const getFeedbackMessage = () => {
+    if (score === 3) return '¡Perfecto!😁';
+    if (score === 2) return '¡Medio!😬';
+    if (score === 1) return '¡La próxima!🫡';
+    return '¡Ups!😮‍💨';
+    };
 }
