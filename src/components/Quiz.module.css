@@ -57,3 +57,19 @@
   display: flex;
   gap: 1rem;
 }
+
+.finUno{
+  background-color: white;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.finDos{
+    background-color: white;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+.finUno:hover, .finDos:hover{
+  background-color: #5b2a9d;
+  box-shadow: 0 10px 10px rgba(54, 16, 129, 0.616);
+  color:white;
+}
